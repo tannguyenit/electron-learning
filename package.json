@@ -1,0 +1,22 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --inspect ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower-install": "bower install ${npm_config_package}"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.14",
+    "electron": "^23.0.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "jquery": "^3.6.3",
+    "node-notifier": "^10.0.1"
+  }
+}
